@@ -59,10 +59,10 @@ def get_model_metrics(model, data):
 
 
 def main():
-    print("Running train.py")
+    print("Running train.py with ridge alpha as 0.1")
 
     # Define training parameters
-    ridge_args = {"alpha": 0.5}
+    ridge_args = {"alpha": 0.1}
 
     # Load the training data as dataframe
     data_dir = "data"
